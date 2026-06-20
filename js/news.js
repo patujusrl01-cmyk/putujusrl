@@ -219,7 +219,7 @@ function initNewsSystem() {
               <p style="margin-bottom: 20px; opacity: 0.9; max-width: 800px;" class="body-md">${item.summary}</p>
               <div class="news-main-meta">
                 <span><span class="material-symbols-outlined" style="font-size: 16px; vertical-align: middle; margin-right: 4px;">calendar_month</span>${item.date}</span>
-                <a href="#" class="news-card-link" style="color: white; display: inline-flex; align-items: center; gap: 4px;">Leer artículo <span class="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span></a>
+                <a href="noticias.html" class="news-card-link" style="color: white; display: inline-flex; align-items: center; gap: 4px;">Leer artículo <span class="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span></a>
               </div>
             </div>
           </div>
@@ -237,7 +237,7 @@ function initNewsSystem() {
             <p class="news-card-desc">${item.summary}</p>
             <div class="news-card-footer">
               <span><span class="material-symbols-outlined" style="font-size: 16px; vertical-align: middle; margin-right: 4px;">calendar_month</span>${item.date}</span>
-              <a href="#" class="news-card-link" style="display: inline-flex; align-items: center; gap: 4px;">Leer más <span class="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span></a>
+              <a href="noticias.html" class="news-card-link" style="display: inline-flex; align-items: center; gap: 4px;">Leer más <span class="material-symbols-outlined" style="font-size: 16px;">arrow_forward</span></a>
             </div>
           </div>
         </div>

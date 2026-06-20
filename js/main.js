@@ -102,39 +102,12 @@ function initScrollAnimations() {
  * Floating WhatsApp Widget Click Action
  */
 function initWhatsAppFloating() {
-  const waBtn = document.getElementById('whatsapp-btn');
-  if (!waBtn) return;
-
-  waBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    const phone = '59170000000'; // Target phone from screenshots
-    const text = encodeURIComponent('Hola PATUJU SRL, me gustaría solicitar asesoría y cotización para mis operaciones logísticas.');
-    const waUrl = `https://wa.me/${phone}?text=${text}`;
-    window.open(waUrl, '_blank');
-  });
+  // Logic removed since it's now handled natively in HTML
 }
 
 /**
  * Handles all empty links to prevent page jumps and show a friendly alert
  */
 function initEmptyLinks() {
-  document.body.addEventListener('click', (e) => {
-    // Find the closest anchor tag
-    const link = e.target.closest('a');
-    if (!link) return;
-
-    const href = link.getAttribute('href');
-    if (href === '#') {
-      // Ignore specific handled links
-      if (link.id === 'whatsapp-btn' || link.id === 'faq-link') return;
-
-      e.preventDefault();
-
-      if (link.classList.contains('news-card-link')) {
-        alert('Este artículo estará disponible próximamente.');
-      } else {
-        alert('Esta función estará disponible próximamente.');
-      }
-    }
-  });
+  // Removed alert block to allow buttons to function natively
 }
