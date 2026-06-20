@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+  <!-- Stylized Patujú Flower Logo -->
+  <g transform="translate(10, 5)">
+    <!-- Red Leaf -->
+    <path d="M 20,40 C 15,25 25,10 35,5 C 30,15 25,30 20,40 Z" fill="#b02d21" />
+    <!-- Yellow Leaf -->
+    <path d="M 22,42 C 22,27 32,15 42,10 C 37,20 30,32 22,42 Z" fill="#f4b400" />
+    <!-- Green Leaf -->
+    <path d="M 24,44 C 28,30 38,20 48,15 C 42,25 32,36 24,44 Z" fill="#004324" />
+    <!-- Stem/Base -->
+    <path d="M 18,38 C 15,42 12,48 10,50 C 12,50 16,46 18,42 Z" fill="#004324" />
+  </g>
+  <!-- Brand Name -->
+  <text x="65" y="37" font-family="'Montserrat', sans-serif" font-weight="700" font-size="20" fill="#004324" letter-spacing="1">PATUJU SRL</text>
+  <!-- Subtitle -->
+  <text x="65" y="48" font-family="'Inter', sans-serif" font-weight="600" font-size="8" fill="#b02d21" letter-spacing="2">ADUANAS &amp; LOGISTICA</text>
+</svg>
