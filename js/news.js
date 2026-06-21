@@ -29,7 +29,7 @@ const newsData = [
   },
   {
     id: 3,
-    title: "PATUJU SRL Obtiene Certificación OEA Nivel Avanzado",
+    title: "PATUJÚ SRL Obtiene Certificación OEA Nivel Avanzado",
     category: "corporativo",
     date: "05 Oct, 2026",
     summary: "Un hito en nuestro compromiso continuo con la seguridad de la cadena de suministro y la excelencia en el agenciamiento aduanero.",

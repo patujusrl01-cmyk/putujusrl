@@ -56,6 +56,11 @@ function initContactForm() {
     // Show Success Toast Notification
     showToast();
 
+    // Trigger mailto redirect
+    const mailtoSubject = encodeURIComponent(`Contacto Web PATUJÚ SRL - ${subject}`);
+    const mailtoBody = encodeURIComponent(`Nombre Completo: ${name}\nEmpresa: ${company}\nTeléfono: ${phone}\nMensaje: ${message}`);
+    window.location.href = `mailto:geovannyluciano83@gmail.com?subject=${mailtoSubject}&body=${mailtoBody}`;
+
     // Reset Form
     form.reset();
   });
@@ -119,7 +124,7 @@ function initContactMap() {
   // Add Popup
   marker.bindPopup(`
     <div style="font-family: var(--font-body); font-size: 13px; color: var(--primary);">
-      <strong style="font-family: var(--font-display); font-size: 14px; display: block; margin-bottom: 4px;">PATUJU SRL</strong>
+      <strong style="font-family: var(--font-display); font-size: 14px; display: block; margin-bottom: 4px;">PATUJÚ SRL</strong>
       Av. Soberanía entre calle 4 y 5, N° 150.<br>
       Santa Cruz, Bolivia.
     </div>
