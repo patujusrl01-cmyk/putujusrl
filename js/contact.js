@@ -123,10 +123,12 @@ function initContactMap() {
 
   // Add Popup
   marker.bindPopup(`
-    <div style="font-family: var(--font-body); font-size: 13px; color: var(--primary);">
-      <strong style="font-family: var(--font-display); font-size: 14px; display: block; margin-bottom: 4px;">PATUJÚ SRL</strong>
-      Av. Soberanía entre calle 4 y 5, N° 150.<br>
-      Santa Cruz, Bolivia.
-    </div>
+    <a href="https://maps.app.goo.gl/9SG8AZ3uUWmzRQrz8" target="_blank" style="text-decoration: none; color: inherit;">
+      <div style="font-family: var(--font-body); font-size: 13px; color: var(--primary); cursor: pointer;">
+        <strong style="font-family: var(--font-display); font-size: 14px; display: block; margin-bottom: 4px; text-decoration: underline;">PATUJÚ SRL</strong>
+        Av. Soberanía entre calle 4 y 5, N° 150.<br>
+        Santa Cruz, Bolivia.
+      </div>
+    </a>
   `).openPopup();
 }
